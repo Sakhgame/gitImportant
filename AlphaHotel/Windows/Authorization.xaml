@@ -1,0 +1,17 @@
+﻿<Window x:Class="AlphaHotel.Windows.Authorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlphaHotel.Windows"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="319" Width="326" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="51,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="51,118,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TbLogin" HorizontalAlignment="Left" Margin="132,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TbPassword" HorizontalAlignment="Left" Margin="132,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button  x:Name="BtnAuthorization" Content="Войти" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Height="23" Width="178" Click="BtnAuthorization_Click"/>
+
+    </Grid>
+</Window>
